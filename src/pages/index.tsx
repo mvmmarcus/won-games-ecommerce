@@ -1,3 +1,5 @@
-export default function Home({ title = 'teste' }) {
-  return <span>{title}</span>
+import Main from 'components/Main'
+
+export default function Home() {
+  return <Main />
 }
